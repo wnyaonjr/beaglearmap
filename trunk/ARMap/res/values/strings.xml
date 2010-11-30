@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">경기 위치찾기</string>
+    <string name="N">N</string>
+    <string name="NE">NE</string>
+    <string name="E">E</string>
+    <string name="SE">SE</string>
+    <string name="S">S</string>
+    <string name="SW">SW</string>
+    <string name="W">W</string>
+    <string name="NW">NW</string>
+    
+
+    <string name="empty_list">Sorry, \nThere is no location information \navailable within this radius.\nPlease try to search in a wider range.</string>
+	<string name="option_not_available">Sorry, We are working on it... \nThis option will be available soon!</string>
+	
+	<string name="license">Copyright (C) 2010- Peer internet solutions
+		\n\nThis program is free software: 	you can redistribute it and/or modify it under the terms of the 
+		GNU General Public License as published by the Free Software Foundation, either version 3 of the License, 
+		or at your option) any later version. 
+		\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even 
+		the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public 
+		License for more details. 
+		\n\n You should have received a copy of the GNU General Public License along with this program. 
+		If not, see &lt;http://www.gnu.org/licenses/&gt;
+	</string>
+	
+	<string name="menu_item_1">Data Source</string>
+	<string name="menu_item_2">List view</string>
+	<string name="menu_item_3">Map view</string>
+	<string name="menu_item_4">Zoom level</string>
+	<string name="menu_item_5">Search</string>
+	<string name="menu_item_6">Info</string>
+	<string name="menu_item_7">License</string>
+	
+	
+	<string name="connection_error_dialog">Sorry, a connection Error occured! \nPlease check if you are connected to the Internet.</string>
+	<string name="connection_error_dialog_button1">Retry</string>
+	<string name="connection_error_dialog_button2">Open Settings</string>
+	<string name="connection_error_dialog_button3">Close App</string>
+	
+	<string name="connection_GPS_dialog_text">The GPS location can not be updated... \nIf you continue it could be that the Information 
+		\nwill not be displayed in the right place.</string>
+	<string name="connection_GPS_dialog_button1">Continue</string>
+	<string name="connection_GPS_dialog_button2">Close</string>
+	
+	<string name="no_website_available">Sorry, there is no further \ninformation available.</string>
+	
+	<string name="license_title">License</string>
+	<string name="close_button">Close</string>
+	<string name="general_info_title">Gerneral Information</string>
+	
+	<string name="general_info_text">GPS info: </string>
+	<string name="longitude">Longitude: </string>
+	<string name="latitude">Latitude: </string>
+	<string name="altitude">Altitude: </string>
+	<string name="speed">Speed: </string>
+	<string name="accuracy">Accuracy: </string>
+	<string name="gps_last_fix">Last GPS fix: </string>
+	
+	<string name="map_menu_normal_mode">Map</string>
+	<string name="map_menu_satellite_mode">Satellite</string>
+	<string name="map_menu_cam_mode">Camera</string>
+	<string name="map_my_location">My Location</string>
+	
+	<string name="map_current_location_click">Your current location</string>
+	
+	<string name="data_source_change_wikipedia">Changed to Wikipedia as data source</string>
+	<string name="data_source_change_twitter">Changed to Twitter as data source</string>
+	<string name="data_source_change_buzz">Changed to Google Buzz as data source</string>
+
+	<string name="usage_info_header">사용 안내  </string>
+	<string name="usage_info_body">본 제품은 경기도 지역 내 생활 위치 정보를 제공하는 어플리케이션 입니다.\n\n
+									모든 위치정보는 경기도에서 제공하는 데이터이며, 위치정보 수신을 위해 무선인터넷을 사용하므로, 3G망을 사용할 시에는 데이터 요금이 부과될 수 있습니다.\n\n
+									GPS 사용시 사용자의 위치정보를 사용하게 되므로 위치정보 사용에 대한 동의 하에 서비스를 제공합니다.\n\n
+									모든 정보는 현재위치 주변의 공공시설물 및 상업시설을 찾기 위한 참고용으로만 사용해 주시기 바라며, 사용 중 발생하는 모든 책임은 사용자에게 있습니다. \n\n
+									위의 내용을 이해하였고, 사용 안내에 대하여 동의하며 프로그램을 시작하겠습니다.
+	</string>
+	<string name="usage_info_cb">이 창을 다시 열지 않기.</string>
+    	
+	<string name="dialog_favorite_title">등록지 편집 </string>
+	
+	<string name="dialog_download_title">주변 데이터 다운로드  </string>
+	<string name="dialog_download_body">서버로부터 주변 데이터를 다운로드 중 입니다. \n 잠시 기다려 주십시오. </string>
+	
+	<string name="addfav_header">위치등록  </string>
+	<string name="addfav_header_gridview">심볼 </string>
+	<string name="addfav_header_rec">추천명칭 </string>
+	<string name="addfav_hint">명칭 입력 </string>
+	<string name="addfav_phone_hint">전화번호 </string>
+	<string name="addfav_button_rec">추천 명칭 </string>
+	<string name="addfav_button_save">저장  </string>
+	<string name="addfav_button_cancel">취소 </string>
+	<string name="addfav_dialog_fillinmissing">입력된 정보가 없습니다 </string>
+	<string name="addfav_dialog_existing_entry">동일한 이름이 존재합니다.</string>
+	<string name="addfav_dialog_update">덮어쓰기 </string>
+	<string name="addfav_dialog_create_new">등록지 추가 </string>
+	<string name="addfav_edit_mode">내 등록지 편집  </string>
+	
+	<string name="search_nearbycat_header">업종선택 </string>
+	<string name="search_current_loc">현재 위치 </string>
+	<string name="search_empty_list">검색결과가 없습니다 </string>
+	<string name="search_no_network">네트워크 상태를 확인하여 주시기 바랍니다.</string>
+	<string name="search_no_network_after_retry">주변 데이터를 서버로부터 가져올 수 없습니다. 네트워크 상태를 확인해 주시기 바랍니다.</string>
+<!--	<string name="search_no_network">네트워크 상태 확인하여 주시기 바랍니다.</string>-->
+	
+	<string name="setup_search_tab_nearby">주변검색</string>
+	<string name="setup_search_tab_category">업종검색</string>
+	<string name="setup_search_tab_favorite">내 등록지</string>
+	
+	<string name="setup_dialog_option_reset">설정이 초기화 됩니다. </string>
+	<string name="setup_dialog_yes">확인  </string>
+	<string name="setup_dialog_no">취소  </string>
+	<string name="setup_dialog_degree">° </string>
+	<string name="setup_dialog_alarm">마다 </string>
+	
+	<string name="main_menu_search">내 주변정보 </string>
+	<string name="main_menu_favorite">위치등록 </string>
+	<string name="main_menu_setup">환경설정 </string>
+	
+	<string name="search_menu_refresh">새로고침 </string>
+	<string name="search_menu_selection">업종선택  </string>
+	
+	<string name="mixview_dialog_title">\'경기 위치찾기\'를 종료합니다</string>
+	<string name="waiting_for_gps_signal">GPS 신호 대기중</string>
+	<string name="no_gps_signal">GPS가 수신되지 않으면 주변 검색을 할 수 없습니다.</string>
+	
+	<string name="kilometer_abbreviation">km</string>
+	<string name="meter_abbreviation">m</string>
+</resources>
